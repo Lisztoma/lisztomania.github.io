@@ -1,11 +1,24 @@
 <!DOCTYPE html>
-<link rel="stylesheet" type="text/css" href="https://lisztomania.github.io//style.css">
-<html>
-    <body>
-        <h1>Hello World</h1>
-        <p>I'm under construction!</p>
-        <h6>Copyright MIT Licence 2018</h6>
-    </body>
+<html manifest="site.manifest">
+    <link href="/style.css" rel="stylesheet">
+
+<p>This text will be red as defined in the external stylesheet.</p>
+<p style="color: blue">The <code>style</code> attribute can override it, though.</p>
+
+    
+<head>
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	
+	<style type="text/css">
+		#main{
+			width:900px;
+			margin:auto;
+		}
+	</style>
+</head>
+<body>
+</body>
+
 </html>
-
-
